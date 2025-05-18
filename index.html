@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Auribel's Art Site</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Times+New+Roman">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
+        <link rel="stylesheet" href="css/my-styles.css">
+        
+         <script src="js/script.js"></script>
+
+
+     </head>
+     <body>
+     <!-- Navigation Bar -->
+    <nav class="w3-bar w3-padding w3-card" style="background-color: #254085; position: relative;">
+    <!-- Hamburger Button (hidden on desktop) -->
+    <button class="w3-button w3-xlarge w3-right w3-hide-large w3-hide-medium" onclick="toggleMenu()" style="color: #F2F3F7;">☰</button>
+    
+    <!-- Nav Links -->
+    <div id="navLinks" class="w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About</a>
+        <a href="resume.html" class="w3-bar-item w3-button">Resume</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    </nav>
+
+
+    <Section>
+        <!-- Header -->
+        <header class="w3-container w3-padding-32 w3-center w3-blue" style="background-color: #254085 !important; color: #F2F3F7;">
+            <h1 class="w3-xxxlarge">Auribel's Art Site</h1>
+            <h1 class="w3-xlarge">Check out my Featured Art</h1>
+        </header>
+
+  <!-- Slideshow Gallery -->
+<section class="slideshow-container">
+    <div class="slides fade">
+      <img src="assets/Mickey_Mouse_Poster.jpg" style="width:100%" alt="Mickey Mouse Poster">
+    </div>
+     <div class="slides fade">
+        <img src="assets/Poly_Design_Portrait.jpg" style="width:100%" alt="Poly Design Portrait">
+    </div>
+    <div class="slides fade">
+        <img src="assets/Spain_Postcard.jpg" style="width:100%" alt="Spain Postcard">
+    </div>
+  
+    <!-- Navigation arrows -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</section>
+
+
+ <!-- Art Categories -->
+<section class="w3-container w3-center w3-padding-64">
+    <h2 class="w3-xxlarge" style="color: #254085;">Art Categories</h2>
+    <div class="w3-row-padding w3-margin-top">
+  
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white hover-card w3-padding">
+          <img src="assets/Red_House_Poster.png" alt="Red Poster Sample" class="preview-img">
+          <h3>Posters</h3>
+          <p>Explore my creative posters designs that mix typography and illustration.</p>
+        </div>
+      </div>
+  
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white hover-card w3-padding">
+          <img src="assets/Juanmy_PolyDesign.JPG" alt="Portrait Sample" class="preview-img">
+          <h3>Portraits</h3>
+          <p>Check out my digital and traditional portrait artworks.</p>
+        </div>
+      </div>
+  
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card w3-white hover-card w3-padding">
+          <img src="assets/Music Icons.jpg" alt="Music Icons" class="preview-img">
+          <h3>Backgrounds</h3>
+          <p>See my designs inspired by patters and aesthetic uses for backgrounds.</p>
+        </div>
+  
+
+</section>
+
+        <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-center" style="background-color: #254085; color: #F2F3F7;">
+    <p>Created by Auribel Vargas | Web Design I © 2025</p>
+    </footer>
+
+    </body>
+    </html>
